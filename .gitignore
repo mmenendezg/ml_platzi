@@ -1,0 +1,14 @@
+# Mac System Files
+*.DS_STORE
+
+# Files related to Jupyter Lab
+*.ipynb_checkpoints*
+*pycache*
+*.pyc
+
+# Virtual environment
+*.venv
+
+# R files
+*.RData
+*.Rhistory

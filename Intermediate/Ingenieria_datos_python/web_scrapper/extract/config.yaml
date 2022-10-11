@@ -1,0 +1,13 @@
+news_sites:
+  bbc:
+    url: https://www.bbc.com
+    queries : 
+        homepage_article_links: '.block-link__overlay-link'
+        article_body: '.ssrcss-uf6wea-RichTextComponentWrapper p'
+        article_title: '.ssrcss-1pl2zfy-StyledHeading'
+  radio-canada:
+    url: https://ici.radio-canada.ca
+    queries:
+      homepage_article_links: '.e-internal-link'
+      article_body: '.e-p'
+      article_title: '.m-h1-heading h1'
