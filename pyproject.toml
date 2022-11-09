@@ -16,6 +16,7 @@ torchvision = "^0.13.1"
 black = "^22.6.0"
 flake8 = "^5.0.4"
 scikit-image = "^0.19.3"
+pandas = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
 
