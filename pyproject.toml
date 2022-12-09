@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "platzi"
+name = "Platzi-ML"
 version = "1.2"
 description = "Project with all the notebooks for all the courses in the ML career"
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
