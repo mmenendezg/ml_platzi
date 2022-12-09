@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "platzi"
-version = "1.1"
+version = "1.2"
 description = "Project with all the notebooks for all the courses in the ML career"
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
 license = "MIT"
