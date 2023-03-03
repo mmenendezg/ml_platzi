@@ -22,6 +22,8 @@ statsmodels = "^0.13.5"
 stanza = "^1.4.2"
 conllu = "^4.5.2"
 torch = "^1.13.1"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.1"
 
 
 [build-system]
