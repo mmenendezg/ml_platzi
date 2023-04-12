@@ -8,8 +8,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
-tensorflow-macos = "^2.10.0"
-tensorflow-metal = "^0.6.0"
 jupyterlab = "^3.5.0"
 matplotlib = "^3.6.2"
 black = "^22.10.0"
@@ -23,6 +21,7 @@ conllu = "^4.5.2"
 torch = "^1.13.1"
 sklearn = "^0.0.post1"
 scikit-learn = "^1.2.1"
+spacy = "^3.5.1"
 
 
 [build-system]
