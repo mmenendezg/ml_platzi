@@ -5,7 +5,7 @@ from typing import Optional
 from pydantic import BaseModel
 
 # FastAPI
-from fastapi import FastAPI, Body
+from fastapi import FastAPI, Body, Query
 
 app = FastAPI()
 
@@ -30,3 +30,13 @@ def home():
 def create_user(person: Person = Body(...)) -> Person:
     # The three dots in fastAPI means that it is obligatory
     return person
+
+# Validate Query Parameters
+@app.get("/person/detail")
+def get_person_details(
+    name: Optional[str] = Query(default=None, min_length=1, max_length=50),
+    age: Optional[int] = Query(default=None)
+):
+    return {
+        name: age
+    }
