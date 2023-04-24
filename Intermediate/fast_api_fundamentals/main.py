@@ -27,5 +27,6 @@ def home():
 
 # Request and Response Body
 @app.post("/user/new")
-def create_user(person: Person = Body(...)):
+def create_user(person: Person = Body(...)) -> Person:
+    # The three dots in fastAPI means that it is obligatory
     return person
