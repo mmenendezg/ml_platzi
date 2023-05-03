@@ -25,9 +25,7 @@ class Person(BaseModel):
     first_name: str = Field(..., min_length=1, max_length=50, example="Marlon")
     last_name: str = Field(..., min_length=1, max_length=50, example="Menendez")
     age: int = Field(..., gt=0, le=99, example=31)
-    hair_color: Optional[HairColor] = Field(
-        default=None, example="black"
-    )
+    hair_color: Optional[HairColor] = Field(default=None, example="black")
     is_married: Optional[bool] = Field(default=None, example=False)
 
 
@@ -57,6 +55,7 @@ def get_person_details(
         gt=0,
         title="Person ID",
         description="The identifier number of the person. This is obligatory.",
+        example=1001,
     ),
     name: Optional[str] = Query(
         default=None,
@@ -64,9 +63,13 @@ def get_person_details(
         max_length=50,
         title="Person Name",
         description="This is the name of the person. It's between 1 and 50 chars lenght",
+        example="Marlon",
     ),
     age: Optional[int] = Query(
-        default=None, title="Person Age", description="This is the age of the person."
+        default=None,
+        title="Person Age",
+        description="This is the age of the person.",
+        example=31,
     ),
 ) -> Dict:
     return {person_id: "This person exists!", name: age}
@@ -76,7 +79,11 @@ def get_person_details(
 @app.put("/person/{person_id}")
 def update_person(
     person_id: int = Path(
-        ..., title="Person Id", description="This is the Id of the person", gt=0
+        ...,
+        title="Person Id",
+        description="This is the Id of the person",
+        gt=0,
+        example=1001,
     ),
     person: Person = Body(...),
     location: Location = Body(...),
