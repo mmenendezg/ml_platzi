@@ -881,6 +881,18 @@ files = [
 ]
 
 [[package]]
+name = "huggingface"
+version = "0.0.1"
+description = "HuggingFace is a single library comprising the main HuggingFace libraries."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "huggingface-0.0.1-py3-none-any.whl", hash = "sha256:98a3409537557cd2fd768997ef94cab08529f86c5e106e6d54bbabdd5ee03910"},
+    {file = "huggingface-0.0.1.tar.gz", hash = "sha256:0a2f228fd956801d68b7c6a8bef478dfa60c4b7d7eba572ea7de39ecf87e505a"},
+]
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -3848,4 +3860,4 @@ test = ["mypy", "pre-commit", "pytest", "pytest-asyncio", "websockets (>=10.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "dd1a61f97bd009bfe7d395367bb9f77cb9aaa3e01b5ded393ac733872bbd4f94"
+content-hash = "e60e706f33cc3f3b032ea851391245897f128ff1afbf63b4a0b9ccd68e477df5"

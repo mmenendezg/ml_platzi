@@ -22,6 +22,7 @@ torch = "^1.13.1"
 spacy = "^3.5.1"
 fastapi = "^0.95.1"
 uvicorn = "^0.21.1"
+huggingface = "^0.0.1"
 
 
 [build-system]
