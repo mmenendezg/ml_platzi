@@ -1,4 +1,0 @@
-links = //h3[@class="jeg_post_title"]/a/@href
-title = //div[@class="entry-header"]/h1[@class="jeg_post_title"]
-subtitle = //div[@class="entry-header"]/h2[@class="jeg_post_subtitle"]
-body = //div[@class="content-inner "]/p[not(@class)]
