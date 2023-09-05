@@ -8,6 +8,7 @@
 
 # Virtual environment
 *.venv
+*wheels/
 
 # R files
 *.RData
