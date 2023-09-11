@@ -4096,6 +4096,19 @@ docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
 test = ["pre-commit", "pytest (>=7.0)", "pytest-timeout"]
 
 [[package]]
+name = "tf-slim"
+version = "1.1.0"
+description = "TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow"
+optional = false
+python-versions = "*"
+files = [
+    {file = "tf_slim-1.1.0-py2.py3-none-any.whl", hash = "sha256:fa2bab63b3925bd42601102e7f178dce997f525742596bf404fa8a6918e146ff"},
+]
+
+[package.dependencies]
+absl-py = ">=0.2.2"
+
+[[package]]
 name = "threadpoolctl"
 version = "3.2.0"
 description = "threadpoolctl"
@@ -4762,4 +4775,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "068430d83d20866c95c1a662718c94ce304ff6b2716c11e63b173597e3eba9b6"
+content-hash = "fcaf8541eab420ba936c54727c7c51d086bfe95b01ba89152bc223da6e81e6a9"
