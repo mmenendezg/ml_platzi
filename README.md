@@ -1,12 +1,9 @@
-# Escuela de Data Science
+# Platzi Repository
 
 This repository contains the following courses:
 
-- Curso profesional de Git y Github
-- Programación Orientada a Objetos en Python
-- Estadistica Computacional con Python
-- Fundamentos de Bases de Datos
-- Curso SQL y MySQL
-- Curso práctico de SQL
-- Cursos de Matematicas:
-> - Curso de Probabilidad
+> Deep Learning
+>> - Image Generation
+>> - Object Detection with TensorFlow
+>> - Pytorch
+>> - Transfer Learning with Hugging Face
