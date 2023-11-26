@@ -7,3 +7,4 @@ This repository contains the following courses:
 >> - Object Detection with TensorFlow
 >> - Pytorch
 >> - Transfer Learning with Hugging Face
+>> - Machine Learning Experimentation with Hugging Face
