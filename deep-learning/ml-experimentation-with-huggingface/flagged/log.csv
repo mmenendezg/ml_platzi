@@ -1,0 +1,13 @@
+input_,output,flag,username,timestamp
+"{""path"":""flagged/input_/d4bd42ddc468cfa9ce9d/Tomato May 5.jpg"",""url"":""http://127.0.0.1:7862/file=/private/var/folders/lj/b6nh4d2n3_b608c7t9s86ybc0000gn/T/gradio/58d03a2a4c314ae39c4f69705bff9f715dec28fe/Tomato May 5.jpg"",""size"":1019878,""orig_name"":""Tomato May 5.jpg"",""mime_type"":""""}","{""label"":null,""confidences"":null}",,,2023-11-21 07:44:52.125429
+"{""path"":""flagged/input_/86cee4ec891a3f8a1415/Tomato May 5.jpg"",""url"":""http://127.0.0.1:7871/file=/private/var/folders/lj/b6nh4d2n3_b608c7t9s86ybc0000gn/T/gradio/58d03a2a4c314ae39c4f69705bff9f715dec28fe/Tomato May 5.jpg"",""size"":1019878,""orig_name"":""Tomato May 5.jpg"",""mime_type"":""""}","{""label"":""bell pepper"",""confidences"":[{""label"":""bell pepper"",""confidence"":0.2315632402896881},{""label"":""hip"",""confidence"":0.17603126168251038},{""label"":""Granny Smith"",""confidence"":0.03605925664305687},{""label"":""strawberry"",""confidence"":0.034868769347667694},{""label"":""grasshopper"",""confidence"":0.026446660980582237}]}",,,2023-11-21 07:59:44.187864
+"{""path"":""flagged/Upload CSV File/202755936acf9643a51f/train.csv"",""url"":""http://127.0.0.1:7877/file=/private/var/folders/lj/b6nh4d2n3_b608c7t9s86ybc0000gn/T/gradio/9b4216c4be6645d3d7b62528f6a86c4e0ded5e63/train.csv"",""size"":14935,""orig_name"":""train.csv"",""mime_type"":""""}","<table border=""1"" class=""dataframe"">
+  <thead>
+    <tr style=""text-align: right;"">
+      <th></th>
+      <th>/private/var/folders/lj/b6nh4d2n3_b608c7t9s86ybc0000gn/T/gradio/9b4216c4be6645d3d7b62528f6a86c4e0ded5e63/train.csv</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>",,,2023-11-21 08:34:54.908174
