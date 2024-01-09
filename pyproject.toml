@@ -46,6 +46,11 @@ datasets = "^2.15.0"
 tiktoken = "^0.5.2"
 pinecone-client = "^2.2.4"
 chromadb = "^0.4.20"
+langchain = "^0.0.352"
+pypdf = "^3.17.4"
+einops = "^0.7.0"
+unstructured = "0.7.12"
+jsonlines = "^4.0.0"
 
 
 [build-system]
