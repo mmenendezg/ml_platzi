@@ -52,6 +52,7 @@ einops = "^0.7.0"
 unstructured = "0.7.12"
 jsonlines = "^4.0.0"
 mypy = "^1.8.0"
+instructorembedding = "^1.0.1"
 
 
 [build-system]
