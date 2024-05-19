@@ -8,6 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
+<<<<<<< HEAD
 tensorflow-metal = "^1.0.1"
 flake8 = "^6.1.0"
 black = {extras = ["jupyter"], version = "^23.12.1"}
@@ -53,6 +54,29 @@ instructorembedding = "^1.0.1"
 tensorflow = "^2.16.1"
 sentencepiece = "^0.2.0"
 keras-nlp = "^0.8.2"
+=======
+tensorflow = "^2.16.1"
+tensorflow-metal = "^1.1.0"
+flake8 = "^7.0.0"
+black = "^24.4.1"
+mypy = "^1.10.0"
+matplotlib = "^3.8.4"
+pandas = "^2.2.2"
+polars = "^0.20.22"
+seaborn = "^0.13.2"
+transformers = "^4.40.1"
+datasets = "^2.19.0"
+evaluate = "^0.4.1"
+accelerate = "^0.29.3"
+optuna = "^3.6.1"
+jupyterlab = "^4.1.6"
+pylance = "^0.10.15"
+ipykernel = "^6.29.4"
+ipywidgets = "^8.1.2"
+scikit-learn = "^1.4.2"
+hvplot = "^0.9.2"
+imblearn = "^0.0"
+>>>>>>> machine-learning
 
 
 [build-system]
