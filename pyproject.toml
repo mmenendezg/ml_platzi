@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Platzi-ML"
-version = "1.6.0"
+version = "1.7.0"
 description = "Project with all the notebooks for all the courses in the ML career"
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
 license = "MIT"
