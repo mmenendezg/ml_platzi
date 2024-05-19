@@ -23,6 +23,6 @@ Intermediate/text_classification_algorithms/nlp
 *.code-workspace
 
 # Datasets
-datasets/
-images/
+*/datasets/
+*/images/
 stable-diffusion-webui/
