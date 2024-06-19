@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Platzi-ML"
-version = "1.6.0"
+version = "1.7.0"
 description = "Project with all the notebooks for all the courses in the ML career"
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
 license = "MIT"
@@ -13,7 +13,7 @@ flake8 = "^6.1.0"
 matplotlib = "^3.7.2"
 pandas = "^2.0.3"
 polars = "^0.18.15"
-seaborn = "^0.12.2"
+seaborn = "0.13.0"
 transformers = "4.39.0"
 evaluate = "^0.4.0"
 accelerate = "^0.21.0"
@@ -53,6 +53,8 @@ tensorflow = "^2.16.1"
 sentencepiece = "^0.2.0"
 keras-nlp = "^0.8.2"
 black = "^24.4.2"
+yellowbrick = "^1.5"
+marimo = "^0.6.13"
 
 
 [build-system]
