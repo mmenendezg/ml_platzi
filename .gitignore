@@ -26,4 +26,8 @@ Intermediate/text_classification_algorithms/nlp
 */datasets/
 */images/
 stable-diffusion-webui/
-datasets/
+datasets/# pixi environments
+.pixi
+*.egg-info
+# magic environments
+.magic
